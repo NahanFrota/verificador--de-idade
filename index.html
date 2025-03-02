@@ -6,24 +6,38 @@
     <link rel= "stylesheet" href="filecss.css">
     <title>Document</title>
 </head>
-<body>
+<body onload= "carregar()">
     <header> verificador de idade </header>
     <section>
         <div>
-           //input//
+           <p> 
+            ano de nascimento <input  type="number" id = "anode">
+           </p>
+           <p>
+              sexo: <input type="radio" name="sexo" id="sexo" checked> 
+       <label for="sexo"> masculino</label> 
+             <input type="radio" name="sex" id="sex" checked>
+             <label for="sex">feminino</label>
+           </p>
+           <p>
+            <input type="button" value="verificar">
+
+           </p>
         </div>
 
-<div>
-     checkbox 
+<div id="res">
+    preencha os dados corretamente para ver o resultado
+    
 </div>
+
 <div>  
-    <input type="button" value="verificar">
+      
 </div>
 
 
     </section>
     <footer>
-  
+       &copy;nahanprojeto
     </footer>
     
 </body>
