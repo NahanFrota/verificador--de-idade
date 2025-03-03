@@ -6,23 +6,23 @@
     <link rel= "stylesheet" href="filecss.css">
     <title>Document</title>
 </head>
-<body onload= "carregar()">
+<body>
     <header> verificador de idade </header>
     <section>
         <div>
            <p> 
-            ano de nascimento <input  type="number" id = "anode">
+            ano de nascimento <input  type="number" id = "anode" min="1899" >
            </p>
            <p>
-              sexo: <input type="radio" name="sexo" id="sexo" checked> 
+              sexo: <input type="radio" name="sex" id="sexo" checked> 
        <label for="sexo"> masculino</label> 
-             <input type="radio" name="sex" id="sex" checked>
+             <input type="radio" name="sex" id="sex" >
              <label for="sex">feminino</label>
            </p>
-           <p>
-            <input type="button" value="verificar">
+           
+            <input type="button" value="verificar" id="verificar" onclick="verificar()">
 
-           </p>
+           
         </div>
 
 <div id="res">

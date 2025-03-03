@@ -18,7 +18,7 @@ div{
 section{
     background-color: rgb(58, 23, 23);
     width: 400px;
-    height: 250px;
+    height: 400px;
     padding: 130px;
        margin: auto;
        border-radius: 10px;
@@ -29,6 +29,9 @@ footer{
 text-align: center;
    font-style: italic;
    padding: 10px;
+}
+img {
+    border-radius: 30px;
 }
 
 
